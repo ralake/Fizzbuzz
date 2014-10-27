@@ -35,6 +35,10 @@ describe "fizzbuzz" do
       expect(fizzbuzz_says(3)).to eq "Fizz"
     end
 
+    it "'Buzz' when number is divisible by five" do
+      expect(fizzbuzz_says(5)).to eq "Buzz"
+    end
+
   end
 
 end
