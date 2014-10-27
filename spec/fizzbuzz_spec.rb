@@ -28,5 +28,14 @@ describe "fizzbuzz" do
       expect(divisible_by_fifteen?(1)).to be false
     end
   end
+
+  context "When in the game" do
+
+    it "'Fizz' when number is divisible by three" do
+      expect(fizzbuzz_says(3)).to eq "Fizz"
+    end
+
+  end
+
 end
 
