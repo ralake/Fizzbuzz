@@ -19,5 +19,14 @@ describe "fizzbuzz" do
     it "is NOT divisible by five" do
       expect(divisible_by_five?(1)).to be false
     end
+
+    it "is divisible by fifteen" do
+      expect(divisible_by_fifteen?(15)).to be true
+    end
+
+    it "is NOT divisible by fifteen" do
+      expect(divisible_by_fifteen?(1)).to be false
+    end
   end
 end
+
