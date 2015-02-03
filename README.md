@@ -1,10 +1,11 @@
 Fizzbuzz
 ========
 
-Create fizzbuzz program to learn how to use Rspec for TDD.
+A short exercise to learn how to use rSpec for TDD at the beginning of the course.
 
 How to use
 ----------
 ```shell
-fizzbuzz.rb
+irb
+require './lib/fizzbuzz'
 ```

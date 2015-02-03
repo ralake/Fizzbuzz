@@ -1,4 +1,4 @@
-require './lib/fb'
+require './lib/fizzbuzz'
 
 describe 'Fizzbuzz' do 
 
